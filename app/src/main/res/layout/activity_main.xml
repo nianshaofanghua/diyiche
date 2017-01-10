@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dy.com.babycarmvp.MainActivity">
+
+
+        <com.tencent.smtt.sdk.WebView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:text="已联网？点击刷新"
+            android:textColor="#333"
+            android:visibility="gone"
+            android:textSize="20sp"
+            android:id="@+id/requset"
+            android:layout_centerInParent="true"
+            android:layout_width="160dp"
+            android:layout_height="60dp"/>
+        <ImageView
+            android:id="@+id/overtime"
+            android:visibility="gone"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/fail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+<Button
+    android:id="@+id/btn1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btn1"
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btn2"
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btn3"
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/btn4"
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+</RelativeLayout>
+
+
+

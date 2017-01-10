@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">元元车宝</string>
+    <string name="phonestate_permission_sdw">由于系统限制,需要打开获取SD卡读写权限才能继续操作,请先点击设置打开该权限哦</string>
+    <string name="permission_tip">权限提示</string>
+    <string name="setting">设置</string>
+    <string name="qx">取消</string>
+    <string name="path">/mnt/sdcard/车管天下.apk</string>
+    <string name="photo_setting">请选择所要进行的操作</string>
+    <string name="camera">拍照</string>
+    <string name="tex">已断网！请检查设备网络是否打开，点击桌面设置按键进入开启wifi；也可以插入4G卡，保持畅快体验！</string>
+    <string name="photo">相册</string>
+</resources>
